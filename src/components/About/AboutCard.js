@@ -12,9 +12,9 @@ function AboutCard() {
             from <span className="purple"> Nairobi, Kenya.</span>
             <br />
             I am currently employed as a software developer at FarmIT.
-            <br />
-            I have completed Fullstack Software Engineering at Moringa school 
-            Nairobi.
+<br />
+As a software engineer, I design, develop, and maintain software solutions that solve complex problems and meet company's needs.
+.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Javascript, Python, Flutter and currenly learning PHP. </b>
+                <b className="purple"> Javascript, Python, Flutter and currently learning PHP. </b>
               </i>
               <br />
               <br />

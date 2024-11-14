@@ -6,69 +6,53 @@ import { SiTypescript, SiFlask, SiFlutter, SiDjango, SiMysql, SiPostgresql, SiJq
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: 'center' }}>
-        <DiHtml5 size={40} />
-        <div>HTML</div>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiHtml5 /> {/* HTML */}
       </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: 'center' }}>
-        <DiCss3 size={40} />
-        <div>CSS</div>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 /> {/* CSS */}
       </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: 'center' }}>
-        <SiTypescript size={40} />
-        <div>TypeScript</div>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript /> {/* Typescript */}
       </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: 'center' }}>
-        <DiBootstrap size={40} />
-        <div>Bootstrap</div>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiBootstrap /> {/* Bootstrap */}
       </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: 'center' }}>
-        <DiJavascript1 size={40} />
-        <div>JavaScript</div>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJavascript1 /> {/* JavaScript */}
       </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: 'center' }}>
-        <DiReact size={40} />
-        <div>React</div>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact /> {/* React */}
       </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: 'center' }}>
-        <SiJquery size={40} />
-        <div>jQuery</div>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJquery /> {/* jQuery */}
       </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: 'center' }}>
-        <SiFlask size={40} />
-        <div>Flask</div>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlask /> {/* Flask */}
       </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: 'center' }}>
-        <SiFlutter size={40} />
-        <div>Flutter</div>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlutter /> {/* Flutter */}
       </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: 'center' }}>
-        <DiPython size={40} />
-        <div>Python</div>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython /> {/* Python */}
       </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: 'center' }}>
-        <SiDjango size={40} />
-        <div>Django</div>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDjango /> {/* Django */}
       </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: 'center' }}>
-        <SiVisualstudio size={40} />
-        <div>Visual Studio</div>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVisualstudio /> {/* Visual Studio */}
       </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: 'center' }}>
-        <SiMysql size={40} />
-        <div>MySQL</div>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql /> {/* MySQL */}
       </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: 'center' }}>
-        <SiPostgresql size={40} />
-        <div>PostgreSQL</div>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql /> {/* PostgreSQL */}
       </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: 'center' }}>
-        <DiGit size={40} />
-        <div>Git</div>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit /> {/* Git */}
       </Col>
-      <Col xs={4} md={2} className="tech-icons" style={{ textAlign: 'center' }}>
-        <SiGithub size={40} />
-        <div>GitHub</div>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithub /> {/* GitHub */}
       </Col>
     </Row>
   );

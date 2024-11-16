@@ -45,12 +45,12 @@ function Projects() {
           
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={editor}
               isBlog={false}
-              title="Patnan Investment"
+              title="PatnanInvestment.co.ke"
               description="A website for Patnan Investment built on Next.js and React a fast and agile platform that showcases the company's profile the world"
-              //ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://patnaninvestment.co.ke/"
+              //ghLink="https://github.com/soumyajit4419/Editor.io"
+              demoLink="https://patnaninvestment.co.ke/"              
             />
           </Col>
           </Row>

@@ -42,7 +42,18 @@ function Projects() {
               demoLink="https://farmit.co.ke/"
             />
           </Col>
-        </Row>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Patnan Investment"
+              description="A website for Patnan Investment built on Next.js and React a fast and agile platform that showcases the company's profile the world"
+              //ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://patnaninvestment.co.ke/"
+            />
+          </Col>
+          </Row>
       </Container>
     </Container>
   );

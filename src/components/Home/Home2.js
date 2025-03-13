@@ -7,7 +7,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -67,6 +67,17 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
+                  href="https://wa.me/254796681150"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                  style={{ color: "#25D366", fontSize: "2rem" }}
+                >
+                  <FaWhatsapp />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
                   href="https://github.com/victor-kiptoo-001"
                   target="_blank"
                   rel="noreferrer"
@@ -97,7 +108,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/vicky_6linder/"
+                  href="https://www.instagram.com/vicky_blinder/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

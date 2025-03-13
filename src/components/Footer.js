@@ -5,7 +5,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -21,6 +21,16 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
+            <li className="social-icons">
+              <a
+                href="https://wa.me/254796681150"
+                style={{ color: "#25D366", fontSize: "1.8rem" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaWhatsapp />
+              </a>
+            </li>
             <li className="social-icons">
               <a
                 href="https://github.com/victor-kiptoo-001"
@@ -53,7 +63,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/vicky_6linder/"
+                href="https://www.instagram.com/vicky_blinder/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

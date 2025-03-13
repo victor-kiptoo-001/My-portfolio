@@ -35,6 +35,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="Portfolio"
+              description="A showcase of my skills, projects, and expertise in software development, featuring innovative solutions in web and mobile applications."
+              //ghLink="https://github.com/victor-kiptoo-001/My-portfolio"
+              demoLink="https://victorkiptooportfolio.vercel.app/"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={chatify}
               isBlog={false}
               title="Crosstech.ke"

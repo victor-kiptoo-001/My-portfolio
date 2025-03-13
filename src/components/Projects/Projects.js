@@ -21,6 +21,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Celeste Scents"
+              description="Celeste Scents is an elegant online perfume shop offering a curated selection of luxury, designer, and niche fragrances for men, women, and unisex wearers in Kenya"
+              //ghLink="https://github.com/victor-kiptoo-001/Perfume-store"
+              demoLink="https://perfume-store-self.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}

@@ -24,11 +24,22 @@ function Projects() {
           
         <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="BackRoom Liquor"
+              description="Backroom C0cktail & Food Shop is a sleek, modern website designed to capture the exclusive vibe of a hidden gem where gourmet food meets craft cocktails"
+              ghLink="https://github.com/victor-kiptoo-001/BackRoom"
+              demoLink="https://back-room-fawn.vercel.app/"
+            />
+          </Col>
+        
+        <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={emotion}
               isBlog={false}
               title="Celeste Scents"
               description="Celeste Scents is an elegant online perfume shop offering a curated selection of luxury, designer, and niche fragrances for men, women, and unisex wearers in Kenya"
-              //ghLink="https://github.com/victor-kiptoo-001/Perfume-store"
+              ghLink="https://github.com/victor-kiptoo-001/Perfume-store"
               demoLink="https://perfume-store-self.vercel.app/"
             />
           </Col>
@@ -39,7 +50,7 @@ function Projects() {
               isBlog={false}
               title="Portfolio"
               description="A showcase of my skills, projects, and expertise in software development, featuring innovative solutions in web and mobile applications."
-              //ghLink="https://github.com/victor-kiptoo-001/My-portfolio"
+              ghLink="https://github.com/victor-kiptoo-001/My-portfolio"
               demoLink="https://victorkiptooportfolio.vercel.app/"
             />
           </Col>

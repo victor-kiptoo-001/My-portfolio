@@ -54,6 +54,17 @@ function Projects() {
               demoLink="https://victorkiptooportfolio.vercel.app/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="PatnanInvestment.co.ke"
+              description="A website for Patnan Investment built on Next.js and React a fast and agile platform that showcases the company's profile the world"
+              //ghLink="https://github.com/soumyajit4419/Editor.io"
+              demoLink="https://patnaninvestment.co.ke/"              
+            />
+          </Col>
           
           <Col md={4} className="project-card">
             <ProjectCard
@@ -77,16 +88,6 @@ function Projects() {
             />
           </Col>
           
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="PatnanInvestment.co.ke"
-              description="A website for Patnan Investment built on Next.js and React a fast and agile platform that showcases the company's profile the world"
-              //ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://patnaninvestment.co.ke/"              
-            />
-          </Col>
           </Row>
       </Container>
     </Container>
